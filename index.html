@@ -3,165 +3,174 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Red Rescue Newsletter</title>
-    <style>
+    <style type="text/css">
         body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
             margin: 0;
             padding: 0;
-            color: #333333;
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
         }
 
         .container {
-            width: 100%;
             max-width: 600px;
             margin: auto;
+            background-color: #ffffff;
             padding: 20px;
+            border-radius: 8px;
         }
 
-        .header img {
-            width: 100%;
-            height: auto;
+        .header {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 8px;
         }
 
-        .section {
+        .header h1 {
+            color: #e53935;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .image-section {
+            text-align: center;
             margin: 20px 0;
         }
 
+        .middle-img {
+            padding-top: 20px;
+        }
+
+        .image-section img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        .content {
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+            padding: 0 10px;
+        }
+
         .highlight {
-            background-color: #fde3bb;
+            background-color: #ffe0b2;
             padding: 10px;
             border-left: 5px solid #ff9800;
             margin: 15px 0;
         }
 
-        .photo-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
+        .cta {
+            padding-top: 30px;
+            text-align: center;
+            margin: 30px 0;
         }
 
-        .photo-grid img {
-            width: 48%;
-            height: auto;
+        .cta a {
+            background-color: #e53935;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
             border-radius: 5px;
         }
 
-        .cta-button {
-            display: inline-block;
-            background-color: #C8102E;
-            color: white;
-            padding: 15px 25px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 4px;
-            margin-top: 20px;
-        }
-
         .footer {
-            text-align: center;
             font-size: 12px;
-            color: #777;
-            margin-top: 30px;
-        }
-
-        .social-icons {
+            text-align: center;
+            color: #999;
             margin-top: 20px;
-        }
-
-        .social-icons a {
-            margin: 0 10px;
-            text-decoration: none;
-        }
-
-        .social-icons img {
-            width: 24px;
-            height: 24px;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <center>
-            <img src="https://github.com/sandwipmitra/Cool-First-Aid-Fact-1/blob/main/redRescue-logo2.png?raw=true"
-                alt="Manigandaa Teaching the Kids" width="150"
-                style="display: block; margin: 0 auto; max-width: 100%; height: auto;" border="0">
-        </center>
+        <div>
+            <center class="middle-img">
+                <img src="https://github.com/sandwipmitra/Cool-First-Aid-Fact-1/blob/main/redRescue-logo2.png?raw=true" alt="Manigandaa Teaching the Kids" width="150" style="display: block; margin: 0 auto; max-width: 100%; height: auto;" border="0">
+            </center>
+            <div class="header">
+                <h1>Cool First Aid Fact!</h1>
+            </div>
 
-        <!-- Hero Image -->
-        <div class="header">
-            <img src="image1.jpg" alt="Lifeguard Training">
+            <!-- <div class="image-section">
+            Replace with your image
+        <img src="https://github.com/sandwipmitra/Cool-First-Aid-Fact-1/blob/main/emergency%20blanket-redrescue.png?raw=true"
+                alt="Child with emergency blanket">
+        </div> -->
+
+            <div>
+                <center class="middle-img">
+                    <img src="https://github.com/sandwipmitra/Cool-First-Aid-Fact-1/blob/main/kids%20activities-redrescue2.jpeg?raw=true" alt="Manigandaa Teaching the Kids" width="400" style="display: block; margin: 0 auto; max-width: 100%; height: auto;" border="0">
+                </center>
+            </div>
+
+            <div class="content">
+                <p class="highlight">
+                    🛡️ <strong>Why do we carry an emergency blanket in a first aid kit?</strong><br>
+                    It’s not just for cold weather – it helps keep the body warm and prevent shock after an
+                    accident!<br>
+                    <em>Yes, even in Malaysia’s hot weather – it can be life-saving!</em>
+                </p>
+
+                <p>
+                    Want your child to learn amazing life skills like this?<br>
+                    This holiday, let’s swap screen time for real-world confidence and adventure.
+                </p>
+
+                <p>
+                    Join our engaging <strong>Holiday First Aid Camp</strong> where kids have fun while learning
+                    essential
+                    safety and survival skills.
+                </p>
+            </div>
+            <div>
+                <center class="middle-img">
+                    <img src="https://github.com/sandwipmitra/Cool-First-Aid-Fact-1/blob/main/IMG_3230%20(1).jpg?raw=true" alt="Manigandaa Teaching the Kids" width="400" style="display: block; margin: 0 auto; max-width: 100%; height: auto;" border="0">
+                </center>
+            </div>
+            <div class="cta">
+                <a href="https://www.theredrescue.com" target="_blank">Join Our Holiday Camp !</a>
+            </div>
+
+            <div class="footer">
+                © 2025 Red Rescue • Teaching Lifesaving Skills in Malaysia
+            </div>
         </div>
-
-        <!-- Main Content -->
-        <div class="section">
-            <h2>A Wake-Up Call: Safety Can’t Wait</h2>
-            <p>
-                In light of the recent heartbreaking near-drowning incident that’s been making headlines, it’s a wake-up
-                call for all hotels and pool operators.
-            </p>
-            <p class="highlight">
-                🛡️ <strong>Having lifeguards on duty is insufficient if they aren’t trained to identify drowning before
-                    it
-                    happens</strong><br><br>
-                — especially when children are <em>left unsupervised by adults.</em>
-
-            </p>
-
-        </div>
-
-        <!-- Secondary Image -->
-        <div class="section">
-            <img src="image2.jpg" alt="Training Session" style="width: 100%; border-radius: 5px;">
-        </div>
-
-        <!-- Highlight Section -->
-        <div class="section">
-            <p>
-                At <strong>Park Royal Hotel Melaka</strong>, we recently conducted a focused lifeguard training session.
-                Even though the pool is shallow, the management didn’t take safety lightly.
-            </p>
-            <p>
-                Lifeguards were equipped with real-life rescue skills and, more importantly, trained to spot the early
-                signs of drowning — often silent and easy to miss.
-            </p>
-            <p><strong>We commend Park Royal for going beyond just compliance — they chose prevention.</strong></p>
-        </div>
-
-        <!-- Grid Images -->
-        <div class="photo-grid section">
-            <img src="grid1.jpg" alt="Training Action">
-            <img src="grid2.jpg" alt="Rescue Demo">
-        </div>
-
-        <!-- CTA -->
-        <div class="section" style="text-align: center;">
-            <p>At Red Rescue, we don’t just provide lifeguards. <strong>We build lifesavers.</strong></p>
-            <p>To any hotel or facility that wants to be prepared, accountable, and truly safe — let’s talk.</p>
-            <a href="https://www.theredrescue.com" class="cta-button">Partner with Us</a>
-        </div>
-
-        <!-- Social Media Icons -->
-        <div class="social-icons" style="text-align: center;">
-            <a href="https://www.facebook.com/yourpage">
-                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
-            </a>
-            <a href="https://www.instagram.com/yourprofile">
-                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
-            </a>
-            <a href="https://www.linkedin.com/company/yourcompany">
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-            </a>
-        </div>
-
-        <!-- Footer -->
-        <div class="footer">
-            &copy; 2025 Red Rescue. All rights reserved.<br>
-            <a href="https://www.theredrescue.com" style="color: #C8102E;">www.theredrescue.com</a>
-        </div>
-    </div>
-</body>
+</div>            <center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF; border-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                            <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                                <tr>
+                                    <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                        This email was sent to <a href="mailto:&lt;&lt; Test Email Address &gt;&gt;" target="_blank" style="color:#404040 !important;">&lt;&lt; Test Email Address &gt;&gt;</a>
+                                        <br>
+                                        <a href="https://theredrescue.us21.list-manage.com/about?u=901691a511e748209cdcfbdd7&id=73b20c8de0&e=[UNIQID]&c=e8b4657b55" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://theredrescue.us21.list-manage.com/unsubscribe?u=901691a511e748209cdcfbdd7&id=73b20c8de0&t=b&e=[UNIQID]&c=e8b4657b55" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://theredrescue.us21.list-manage.com/profile?u=901691a511e748209cdcfbdd7&id=73b20c8de0&e=[UNIQID]&c=e8b4657b55" style="color:#404040 !important;">update subscription preferences</a>
+                                        <br>
+                                        Red Rescue &middot; PJ PALMS SPORTS CENTRE, LORONG SULTAN, SEKSYEN 52, &middot; 46200 PETALING JAYA, SELANGOR &middot; Petaling Jaya, Selangor 46200 &middot; Malaysia
+                                        <br>
+                                        <br>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type="text/css">
+                    @media only screen and (max-width: 480px){
+                        table#canspamBar td{font-size:14px !important;}
+                        table#canspamBar td a{display:block !important; margin-top:10px !important;}
+                    }
+                </style>
+            </center></body>
 
 </html>
